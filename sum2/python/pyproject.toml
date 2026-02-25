@@ -1,0 +1,12 @@
+[project]
+name = "python-2sum"
+version = "0.1.0"
+description = "Python implementation for the 2sum problem"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.2",
+]
