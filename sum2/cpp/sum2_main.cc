@@ -9,7 +9,7 @@ typedef std::optional<std::pair<int, int>> Result;
 
 auto find_sum2(int target, std::span<int> values) -> Result {
   std::unordered_map<int, int> to_index;
-  int n = values.size();
+  const int n = values.size();
   for (int i = 0; i < n; ++i) {
     const int value = values[i];
     const int needed = target - value;
